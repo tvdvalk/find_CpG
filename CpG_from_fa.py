@@ -1,15 +1,14 @@
 #!/usr/bin/python
-from __future__ import division
 from Bio import SeqIO
 import operator
 from sys import argv
-import math
 
 """
 Tom van der Valk
 tvdvalk1989@gmail.com
 Script to identify CpG sites in a haploid fasta reference
 Output is in BED-format
+Dependencies: Biopython
 usage = CpG_from_fa.py reference.fa output_filename
 """
 
